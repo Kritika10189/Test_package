@@ -1,0 +1,72 @@
+BotName,TestId,StartTime,EndTime,Status,Error
+
+goToCell, "PD-T41808,PD-T41809", "2026-01-05T06:08:36.269170Z","2026-01-05T06:08:46.163848Z", Pass,
+goToCell, "PD-T41808,PD-T41809", "2026-01-05T06:09:49.177640Z","2026-01-05T06:09:50.531003Z", Pass,
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T06:13:54.297515Z","2026-01-05T06:13:55.284560Z", Fail,No tables found on this slide.
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T06:15:44.159642Z","2026-01-05T06:15:44.185914Z", Fail,Unable to find '/Users/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatText/FormatTableCell.key'. Verify the path, then try again.
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T06:16:29.152149Z","2026-01-05T06:16:29.179318Z", Fail,Unable to find '/Users/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatText/FormatTableCell.key'. Verify the path, then try again.
+PD-T42093_goToCellWithInvalidAddress, "PD-T42093", "2026-01-05T06:18:18.013474Z","2026-01-05T06:18:18.892302Z", Fail,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+PD-T42093_goToCellWithInvalidAddress, "PD-T42093", "2026-01-05T06:19:20.802520Z","2026-01-05T06:19:21.385590Z", Fail,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+PD-T42093_goToCellWithInvalidAddress, "PD-T42093", "2026-01-05T06:21:35.037431Z","2026-01-05T06:21:35.404239Z", Pass,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:26:36.313788Z","2026-01-05T06:26:37.700782Z", Fail,Invalid formula 'A1+B1'. Enter a valid formula, then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:35:10.086987Z","2026-01-05T06:35:10.818525Z", Fail,Invalid formula 'A1+B1'. Enter a valid formula, then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:37:38.298422Z","2026-01-05T06:37:38.977598Z", Fail,Invalid cell address 'A6'. Enter a valid address such as "A1", then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:41:54.184397Z","2026-01-05T06:41:54.804695Z", Fail,Invalid cell address 'A6'. Enter a valid address such as "A1", then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:42:55.523007Z","2026-01-05T06:42:56.065249Z", Fail,Invalid cell address 'A6'. Enter a valid address such as "A1", then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:44:31.882611Z","2026-01-05T06:44:32.416935Z", Fail,Invalid cell address 'A6'. Enter a valid address such as "A1", then try again.
+setCellFormulaAndsetValue, "PD-T41810,PD-T41811, PD-T41813, PD-T41814, PD-T41812", "2026-01-05T06:50:46.547300Z","2026-01-05T06:50:47.422569Z", Pass,
+setCellFormulaInvalidAddress, "PD-T41814", "2026-01-05T06:56:54.943297Z","2026-01-05T06:56:56.190133Z", Pass,Invalid formula 'D1+D2'. Enter a valid formula, then try again.
+PD-T42240_getCellValue, "PD-T42240 ,PD-T42239", "2026-01-05T06:59:12.738877Z","2026-01-05T06:59:13.965850Z", Pass,
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T07:02:07.086651Z","2026-01-05T07:02:07.114226Z", Fail,Unable to find '/Users/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatText/FormatTableCell.key'. Verify the path, then try again.
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T07:04:23.917814Z","2026-01-05T07:04:25.011031Z", Fail,Invalid cell address 'E2'. Enter a valid address such as "A1", then try again.
+PD-T42104_goToSpecificCell, "PD-T42104", "2026-01-05T07:05:23.678956Z","2026-01-05T07:05:24.535632Z", Pass,
+PD-T42105_goToSpecificCellBelowandRight, "PD-T42105", "2026-01-05T07:07:11.046277Z","2026-01-05T07:07:11.074322Z", Fail,Unable to find '/Users/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatTableCell/FormatText.key'. Verify the path, then try again.
+PD-T42105_goToSpecificCellBelowandRight, "PD-T42105", "2026-01-05T07:08:36.007705Z","2026-01-05T07:08:36.035270Z", Fail,Unable to find '/Users/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatTableCell/FormatText.key'. Verify the path, then try again.
+PD-T42105_goToSpecificCellBelowandRight, "PD-T42105", "2026-01-05T07:09:43.286832Z","2026-01-05T07:09:44.662802Z", Pass,
+getColumnOrRowNmae, "PD-T42245,PD-T42246, PD-T42269, PD-T42260", "2026-01-05T07:16:37.839986Z","2026-01-05T07:16:38.839077Z", Pass,
+getColumnOrRowNmae, "PD-T42245,PD-T42246, PD-T42269, PD-T42260", "2026-01-05T07:22:51.429294Z","2026-01-05T07:22:51.755190Z", Pass,Invalid cell address 'A-5'. Enter a valid address such as "A1", then try again.
+getRowName_invalid, "PD-T42269", "2026-01-05T07:26:27.436094Z","2026-01-05T07:26:28.907949Z", Pass,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+PD-T42241_getCellvalueInvalidCellAddress, "PD-T42241", "2026-01-05T07:29:33.052920Z","2026-01-05T07:29:33.372772Z", Pass,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:34:50.820335Z","2026-01-05T07:34:51.383969Z", Fail,Invalid argument supplied to 'table', index '1' is invalid or out of bound.
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:36:02.125488Z","2026-01-05T07:36:11.732944Z", Fail,
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:36:34.267105Z","2026-01-05T07:36:38.010129Z", Fail,
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:38:19.825854Z","2026-01-05T07:38:21.130262Z", Fail,
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:41:49.237239Z","2026-01-05T07:41:51.771137Z", Fail,
+PD-T42090_writeFromDataTable, "PD-T42090", "2026-01-05T07:46:51.546438Z","2026-01-05T07:46:51.865048Z", Pass,Table 'Invalid Table' isn't on this slide. Verify the title, then try again.
+PD-T42091_getAllTableNames, "PD-T42091", "2026-01-05T07:50:32.769248Z","2026-01-05T07:50:33.281656Z", Fail,
+PD-T42091_getAllTableNames, "PD-T42091", "2026-01-05T07:53:30.777492Z","2026-01-05T07:53:31.775932Z", Pass,
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T07:58:36.425067Z","2026-01-05T07:58:39.777719Z", Fail,
+PD-T41805_writeFromDataTable, "PD-T41805", "2026-01-05T09:06:42.579828Z","2026-01-05T09:06:46.026371Z", Pass,
+PD-T41806-write-fromTable-largerThanTheSlide, "PD-T41806", "2026-01-05T09:11:36.747587Z","2026-01-05T09:11:37.864654Z", Fail,Invalid cell address 'A-1'. Enter a valid address such as "A1", then try again.
+PD-T41806-write-fromTable-largerThanTheSlide, "PD-T41806", "2026-01-05T09:12:43.513681Z","2026-01-05T09:12:43.860928Z", Pass,Source table is larger than the slide table. Resize the data or table, then try again.
+, "PD-T42092", "2026-01-05T09:15:47.332698Z","2026-01-05T09:15:48.182078Z", Fail,
+, "PD-T42092", "2026-01-05T09:20:39.818248Z","2026-01-05T09:20:41.236592Z", Pass,
+PD-T42244-savePresentation_invalidPath, "PD-T42244", "2026-01-05T09:58:46.250202Z","2026-01-05T09:58:46.573132Z", Pass,Unable to find the folder path '/C:/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatMedia'. Verify the path, then try again.
+PD-T42241_getCellvalueInvalidCellAddress, "PD-T42242, PD-T42243", "2026-01-05T10:02:50.487918Z","2026-01-05T10:02:50.903822Z", Fail,Unable to find the folder path '/C:/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatTableCell'. Verify the path, then try again.
+renametable, "PD-T41817, PD-T41818", PD-T42055, "2026-01-05T10:14:20.564120Z","2026-01-05T10:14:22.035076Z", Pass,
+renametable, "PD-T41817, PD-T41815", "2026-01-05T10:17:25.429914Z","2026-01-05T10:17:27.078376Z", Pass,
+PD-T42050-createTable-alreadyPresent, "PD-T42050, "2026-01-05T10:22:15.315130Z","2026-01-05T10:22:15.642041Z", Pass,Table 'Table1' already exists on this slide. Use a different title, then try again.
+PD-T41816-deleteTableNotPresent, "PD-T41816", "2026-01-05T10:26:53.985719Z","2026-01-05T10:26:54.469819Z", Pass,Table 'newTable' isn't on this slide. Verify the title, then try again.
+PD-T41818-renameTable, "PD-T41818", "2026-01-05T10:30:39.972175Z","2026-01-05T10:30:40.297813Z", Pass,Table 'Table1' already exists on this slide. Use a different title, then try again.
+PD-T42055_renameTable, "PD-T42055", "2026-01-05T10:33:50.406312Z","2026-01-05T10:33:50.753187Z", Pass,Table 'TableNew' isn't on this slide. Verify the title, then try again.
+PD-T42103_editTableWithInvalidColor, "PD-T42103", "2026-01-05T10:40:42.775473Z","2026-01-05T10:40:43.090596Z", Pass,Invalid header column color '#12FG45'. Enter a valid hex color code (e.g., "#FF5733"), then try again.
+PD-T42095_addTextToSlide, "PD-T42095", "2026-01-05T10:51:01.070600Z","2026-01-05T10:51:02.145421Z", Pass,
+PD-T42095_addTextToSlide, "PD-T42095", "2026-01-05T10:52:09.256248Z","2026-01-05T10:52:10.599426Z", Pass,
+PD-T42096_addTextToSlideWithInvalidCoordinates, "PD-T42096", "2026-01-05T10:54:43.620153Z","2026-01-05T10:54:43.942587Z", Pass,Invalid coordinates ('1000000','2'). Enter x and y values that fit inside the slide, then try again.
+PD-T41829-add_slide, "PD-T41829", "2026-01-05T11:02:10.694471Z","2026-01-05T11:02:11.035106Z", Pass,Slide '100000' is not in the presentation. Verify the slide number, then try again.
+PD-T41830-addSlide_Invalidlayout, "PD-T41830", "2026-01-05T11:05:52.133102Z","2026-01-05T11:05:52.450472Z", Pass,Slide layout 'invalid' not found. Check the layout name, then try again.
+PD-T42234_editSlideBody, "PD-T42234", "2026-01-05T11:09:28.693601Z","2026-01-05T11:09:29.202225Z", Fail,Invalid table schema. Provide valid TextType, Position, Size, and Content, then try again.
+PD-T42234_editSlideBody, "PD-T42234", "2026-01-05T11:10:56.641574Z","2026-01-05T11:10:57.608792Z", Pass,
+PD-T42234_editSlideBody, "PD-T42234", "2026-01-05T11:11:56.838426Z","2026-01-05T11:11:58.089954Z", Pass,
+PD-T42234_editSlideBody, "PD-T42234", "2026-01-05T11:12:39.055745Z","2026-01-05T11:12:40.459187Z", Pass,
+PD-T42234_editSlideBody, "PD-T42234", "2026-01-05T11:15:47.498987Z","2026-01-05T11:15:49.144124Z", Pass,
+PD-T42241_getCellvalueInvalidCellAddress, "PD-T42242, PD-T42243", "2026-01-05T11:42:43.955933Z","2026-01-05T11:42:44.850245Z", Fail,Unable to find the folder path '/C:/Testing Automation/Pre-Requisites/Packages/Mac-Keynote/FormatTableCell'. Verify the path, then try again.
+PD-T42241_getCellvalueInvalidCellAddress, "PD-T42242, PD-T42243", "2026-01-05T11:44:50.331442Z","2026-01-05T11:44:51.722288Z", Pass,
+PD-T42241_getCellvalueInvalidCellAddress, "PD-T42242, PD-T42243", "2026-01-05T11:53:44.794785Z","2026-01-05T11:53:46.966149Z", Pass,
+PD-T41807_editTableWithValidInputs, "PD-T41807", "2026-01-05T11:57:42.068156Z","2026-01-05T11:57:44.756535Z", Pass,
+PD-T42094, "PD-T42094", "2026-01-05T12:12:16.569484Z","2026-01-05T12:12:17.474801Z", Pass,Header row count exceeds. Reduce the counts, then try again.
+PD-T42235-PD-T42238_editSlideContentByHiding, "PD-T42235", "2026-01-05T12:17:34.784631Z","2026-01-05T12:17:36.332540Z", Fail,The table has row index from "0" to "0". Please enter a valid row index.
+PD-T42235-PD-T42238_editSlideContentByHiding, "PD-T42235", "2026-01-05T12:18:49.987718Z","2026-01-05T12:18:50.774458Z", Fail,The table has row index from "0" to "0". Please enter a valid row index.
+PD-T42235_editSlideContentByHiding, "PD-T42235", "2026-01-05T12:21:06.164307Z","2026-01-05T12:21:06.840348Z", Fail,The table has row index from "0" to "0". Please enter a valid row index.
+PD-T42235-PD-T42238_editSlideContentByHiding, "PD-T42235", "2026-01-05T12:33:05.401778Z","2026-01-05T12:33:05.909824Z", Pass,Invalid text type 'unknown'. Use "Title", "Body", or start with "TextBox", then try again.
+PD-T42235_editSlideContentByHiding, "PD-T42235", "2026-01-05T12:36:55.944088Z","2026-01-05T12:36:56.494808Z", Pass,Invalid text type '100,100'. Use "Title", "Body", or start with "TextBox", then try again.
